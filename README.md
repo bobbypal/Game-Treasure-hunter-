@@ -1,4 +1,4 @@
-# Game-Treasure-hunter- kgkg
+# Gamter- kgkg
 To run a Python console-based game through GitHub, you can follow these steps:
 
  1. **Upload the Game Code to GitHub:**
