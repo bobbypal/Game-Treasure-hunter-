@@ -1,40 +1,40 @@
-# Gamter- kgkg
-To run a Python console-based game through GitHub, you can follow these steps:
+# Game-treasure-hunter- 
+It is console based game so follow these steps:
+Cloning a repository in Visual Studio Code (VS Code) is straightforward. Follow these steps:
 
- 1. **Upload the Game Code to GitHub:**
-   - Ensure your game is written in Python and is console-based.
-   - Create a repository on GitHub or use an existing one.
-   - Upload your game files (usually `.py` files) to the repository.
+Prerequisites:
+Make sure you have Git installed on your system. You can check by running git --version in your terminal. If not installed, download it from here.
+VS Code should be installed with the Git extension enabled (it usually comes built-in).
+Steps to Clone a Repository:
+Open VS Code: Launch VS Code on your computer.
 
- 2. **Clone the Repository:**
-   - Once your code is on GitHub, anyone who wants to play the game can clone the repository using:
-     ```bash
-     git clone https://github.com/your-username/your-repository-name.git
-     ```
+Open Command Palette:
 
- 3. **Set Up the Environment:**
-   - Make sure the user has Python installed on their system.
-   - If your game requires specific libraries (e.g., `pygame`), include a `requirements.txt` file in the repository with all the dependencies:
-     ```
-     pygame==2.1.0
-     ```
-   - Users can install the dependencies by running:
-     ```bash
-     pip install -r requirements.txt
-     ```
+Press Ctrl + Shift + P (Windows/Linux) or Cmd + Shift + P (Mac) to open the command palette.
+Type Git: Clone and select it.
+Provide Repository URL:
 
- 4. **Run the Game:**
-   - After cloning the repository and setting up the environment, the user can navigate to the folder containing the game files:
-     ```bash
-     cd your-repository-name
-     ```
-   - Then, they can run the game by executing the main Python file:
-     ```bash
-     python game.py
-     ```
+A prompt will appear asking for the repository URL.
+Go to the GitHub (or any other Git hosting service) repository you want to clone, copy the repository URL.
+Paste the URL into the prompt and hit Enter.
+Choose Directory:
 
-### Additional Tips:
-- **README**: Add clear instructions in a `README.md` file so others can easily understand how to run the game.
-- **Python Version**: Mention the Python version needed for your game in the README or in a `runtime.txt` file if necessary.
+You will be prompted to choose a directory where you want to store the cloned repository on your local machine.
+Select the desired folder.
+Open the Repository:
 
-Would you like help with setting up the repository or writing the `README`?
+After cloning, VS Code will prompt you to open the cloned repository.
+Click Open or open it manually if needed.
+Start Working:
+
+You can now see the cloned repository in the Explorer pane and start coding, editing files, or making commits.
+You can also use the integrated terminal to clone a repository manually with Git:
+
+Open the terminal inside VS Code (shortcut `Ctrl + ``).
+Run the following command:
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+Once cloned, open the folder in VS Code by going to File > Open Folder.
+
+
